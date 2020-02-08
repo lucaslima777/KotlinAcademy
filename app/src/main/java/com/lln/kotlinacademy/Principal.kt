@@ -35,6 +35,7 @@ fun diferencaEntreOperadores(){
      */
     println(valor_primario++)
 
+
     /**
      * Retorna 1 pois o Incremento é antes da Operacao
      *
