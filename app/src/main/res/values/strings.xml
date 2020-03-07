@@ -3,17 +3,27 @@
 
     <!-- Login -->
     <string name="login_title">Login</string>
-    <string name="login_nome">Nome:</string>
-    <string name="login_et_nome">Nome</string>
-    <string name="login_senha">Senha:</string>
-    <string name="login_et_senha">Senha</string>
-    <string name="register_header_title">Dados Cadastrais</string>
-    <string name="register_title_telephone">Telefone</string>
+    <string name="login_nome">Name:</string>
+    <string name="login_et_nome">Name</string>
+    <string name="login_senha">Password:</string>
+    <string name="login_et_senha">Password</string>
+    <string name="register_header_title">Registration data</string>
+    <string name="register_title_telephone">Telephone</string>
     <string name="example_numer_telephone">(11) 9 1234-5678</string>
-    <string name="register_tv_one">Casa</string>
-    <string name="register_tv_two">Trabalho</string>
+    <string name="register_tv_one">House</string>
+    <string name="register_tv_two">Job</string>
     <string name="register_title_email">Email</string>
     <string name="register_example_email">test@gmail.com</string>
-    <string name="register_tv_email_one">Pessoal</string>
-    <string name="register_tv_email_two">Trabalho</string>
+    <string name="register_tv_email_one">Folks</string>
+    <string name="register_tv_email_two">Job</string>
+    <string name="credential_title">Credential</string>
+    <string name="credential_tv_name">Name:</string>
+    <string name="credential_tv_password">Password:</string>
+    <string name="credential_btn_cancel">Cancel</string>
+    <string name="credential_btn_login">Login</string>
+    <string name="msg_error_empty_password">Empty Password Field</string>
+    <string name="msg_error_name_empty">Empty Name Field</string>
+    <string name="msg_error_all_empty">Required fields</string>
+    <string name="msg_error_invalid_credential">Invalid Credentials</string>
+    <string name="msg_success_login">SUCCESS</string>
 </resources>

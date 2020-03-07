@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".ui.SelectionActivity">
+
+    <TextView
+            android:id="@+id/selection_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CheckBox"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+            android:id="@+id/selection_cb_ios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="iOS"
+            app:layout_constraintStart_toStartOf="@+id/selection_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/selection_tv_title" />
+
+    <CheckBox
+            android:id="@+id/selection_cb_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Android"
+            app:layout_constraintStart_toStartOf="@+id/selection_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/selection_cb_ios" />
+
+    <CheckBox
+            android:id="@+id/selection_cb_xiaomi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Xiaomi"
+            app:layout_constraintStart_toStartOf="@+id/selection_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/selection_cb_android" />
+
+    <TextView
+            android:id="@+id/selection_tv_radion_button_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="RadionButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selection_cb_xiaomi" />
+
+    <RadioGroup
+            android:id="@+id/selection_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@+id/selection_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/selection_tv_radion_button_title">
+
+
+        <RadioButton
+                android:id="@+id/selection_rb_programmer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Programador" />
+
+        <RadioButton
+                android:id="@+id/selection_rb_design"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Design"
+                app:layout_constraintTop_toBottomOf="@+id/selection_rb_programmer" />
+
+    </RadioGroup>
+
+    <TextView
+            android:id="@+id/selection_tb_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ToggleButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selection_radio_group" />
+
+    <ToggleButton
+            android:id="@+id/selection_tb_zero_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textOff="0"
+            android:textOn="1"
+            app:layout_constraintStart_toStartOf="@+id/selection_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/selection_tb_title" />
+
+
+    <ToggleButton
+            android:id="@+id/selection_tb_true_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:checked="true"
+            android:textOn="true"
+            android:textOff="false"
+            app:layout_constraintStart_toStartOf="@+id/selection_tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/selection_tb_zero_one" />
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/status"
+            android:button="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selection_tb_true_false" />
+
+</android.support.constraint.ConstraintLayout>
